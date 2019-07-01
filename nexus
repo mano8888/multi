@@ -1,0 +1,9 @@
+deploy:deploy-file
+-DgroupId=com.pipe
+-DartifactId=pipe
+-Dversion=1.0-SNAPSHOT
+-Dpackaging=war
+-DgeneratePom=false
+-Drepository=nexus
+-Durl=https://nexus-tb-pipe.com/repository/some
+-Dfile=1.0-SNAPSHOT.war
